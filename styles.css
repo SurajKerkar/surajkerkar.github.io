@@ -5,8 +5,8 @@ body {
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 2rem;
+  margin:  3%;
   color: #FEF2BF;
 }
 
@@ -20,11 +20,21 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 10px solid black;
   border-radius: 20%;
 }
+
+.btn1{
+  background-color: grey;
+  padding: 10px 20px;
+  margin:10px;
+  border:2px  solid black;
+  border-radius:15px;
+  font-size:3rem;
+  display: none;
+  }
 
 .game-over {
   background-color: red;
@@ -51,3 +61,51 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+
+ /* .clickme{
+  border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6)
+}  */
+
+@media (max-width:1113px) {
+
+  .btn {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+
+   .btn1 {
+  
+    display: inline;
+  background-color: grey;
+  padding: 10px 20px;
+  margin:10px;
+  border:2px  solid black;
+  border-radius:15px;
+  font-size:1.2rem;
+
+} 
+  
+}
+
