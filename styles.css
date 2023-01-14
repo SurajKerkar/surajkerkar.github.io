@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
-  margin:  3%;
+  margin: 3%;
   color: #FEF2BF;
 }
 
@@ -26,15 +26,15 @@ body {
   border-radius: 20%;
 }
 
-.btn1{
+.btn1 {
   background-color: grey;
   padding: 10px 20px;
-  margin:10px;
-  border:2px  solid black;
-  border-radius:15px;
-  font-size:3rem;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 3rem;
   display: none;
-  }
+}
 
 .game-over {
   background-color: red;
@@ -63,7 +63,7 @@ body {
 }
 
 
- /* .clickme{
+/* .clickme{
   border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -80,46 +80,52 @@ body {
 @media (max-width:1113px) {
 
   .btn {
-    margin: 10px;
+    margin: 30px;
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    border: 10px solid black;
+    height: 300px;
+    width:  300px;
+    border: 20px solid black;
     border-radius: 20%;
   }
 
   #level-title {
     font-family: 'Press Start 2P', cursive;
 
-  font-size: 1rem;
+    font-size: 2.5rem;
 
-  margin:  5%;
-  
-  margin-top: 40px;
+    margin: 5%;
 
-  color: #FEF2BF;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+    color: #FEF2BF;
   }
 
-   .btn1 {
-  
+  .btn1 {
+
+
     display: inline;
     background-color: grey;
-    padding: 10px 20px;
-    margin:10px;
-    border:2px  solid black;
-    border-radius:15px;
-    font-size:1.2rem;
+    padding: 25px 50px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 5rem;
 
-} 
 
-.container{
-  display: block;
+  }
 
-  width: 100%;
+  .container {
+    display: block;
 
-  margin: auto;
-  margin-top: 40px;
+    width: 100%;
+
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .row{
+  margin: 50px;
+  }
+
 }
-  
-}
-
